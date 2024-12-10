@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(70, 58, 248);
+    text-align: center;
+
+}
+h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120px;  
+    text-align: inherit;
+    
+}
+p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+li{
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+}
+
+a{
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+h2{
+     color:rgb(250, 246, 24);
+    font-family:"hwt-slab-antique",bold, serif; 
+    font-size: 120px;  
+    text-align: center;
+}
+h3{
+    margin-left: 47%;
+    margin-right: 47%;
+    position: relative;
+}
+
+.HeadingShadow{
+    text-shadow: 5px 5px 7pxrgb(250, 246, 24);
+}
+button:hover {
+  color: white;
+      background-color: rgb(0, 0, 0);
+      box-shadow: 5px 5px 5px blueviolet;
+  }
+  
+  .button {
+      display: inline-block;
+      border-radius: 4px;
+      background-color: rgba(0, 0, 0, 0.418);
+      border: none;
+      color: #ffffff;
+      text-align: center;
+      font-size: 28px;
+      padding: 20px;
+      width: 200px;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin: 5px;
+    }
+    
+    .button span {
+      cursor: pointer;
+      display: block;
+      position: absolute;
+      transition: 0.5s;
+    }
+    
+    .button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      width: -20px;
+      transition: 0.5s;
+    }
+    
+    .button:hover span {
+      padding-right: 25px;
+    }
+    
+    .button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+    .button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+
+  h1:hover{
+    cursor: pointer;
+   font-family: 'Times New Roman', Times, serif;
+  }
+li:hover{
+    cursor: pointer;
+    width: 95%;
+    height: 95%;
+    transition: 0.5s;
+    text-align: center;
+}
+
+
+
+  
+
+
+  p {
+    position: absolute;
+    top: -2.5%;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition: .5s ease;
+    margin-left: 100%;
+    margin-right: 0%;
+    color:rgb(250, 246, 24);
+    font-size: 24px;
+    align-content: left;
+    font-family:'Times New Roman', Times, serif;
+    text-align: left;
+    }
